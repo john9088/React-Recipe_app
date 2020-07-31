@@ -24,7 +24,6 @@ const App = () => {
   const getRecipes = async () => {
     const response = await fetch(exampleReq);
     const data = await response.json();
-    console.log(data.hits);
     setRecipes(data.hits);
   };
   //console.log(recipes.length + " ");
@@ -35,7 +34,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h2 style={{ textAlign: "center", margin: "2vh 0", color: "" }}>
+      <h2 style={{ textAlign: "center", margin: "0vh 0px 2vh 0", color: "" }}>
         Hi! Search your desired cuisine here &#8595;
       </h2>
       <form onSubmit={getSearch} className="search-form">
