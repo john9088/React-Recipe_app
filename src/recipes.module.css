@@ -12,5 +12,10 @@
 
 .image {
   border-radius: 50%;
-  width: 40%;
+  width: 50%;
+  margin: 0 0 2vh 0;
+}
+
+.title {
+  text-align: center;
 }

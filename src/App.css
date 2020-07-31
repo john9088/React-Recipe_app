@@ -4,7 +4,7 @@
 }
 
 .search-form {
-  min-height: 10vh;
+  min-height: 2vh;
   display: flex;
   justify-content: center;
   align-items: center;

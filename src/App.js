@@ -35,10 +35,14 @@ const App = () => {
 
   return (
     <div className="App">
+      <h2 style={{ textAlign: "center", margin: "2vh 0", color: "" }}>
+        Hi! Search your desired cuisine here &#8595;
+      </h2>
       <form onSubmit={getSearch} className="search-form">
         <input
           className="search-bar"
           type="text"
+          placeholder="Enter your favorite ingredient..."
           value={search}
           onChange={updateSearch}
         />
