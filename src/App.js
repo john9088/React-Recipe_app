@@ -41,7 +41,7 @@ const App = () => {
         <input
           className="search-bar"
           type="text"
-          placeholder="Enter your favorite ingredient..."
+          placeholder="Enter your favorite ingredients..."
           value={search}
           onChange={updateSearch}
         />
